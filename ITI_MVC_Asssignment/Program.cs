@@ -4,6 +4,10 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+        var constr = config.GetSection("constr").Value;
+        Console.WriteLine(constr);
+        
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
