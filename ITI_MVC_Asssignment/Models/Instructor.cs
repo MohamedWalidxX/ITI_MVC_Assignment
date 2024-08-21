@@ -6,7 +6,11 @@ public class Instructor {
     public double Salary { get; set; }
     public String Address { get; set; }
     public String Image { get; set; }
+    public int DepartmentId { get; set; }
+    public Department DepartmentNavigation { get; set; }
     
+    public int CourseId { get; set; }
+    public Course CourseNavigation { get; set; }
 
 }
 

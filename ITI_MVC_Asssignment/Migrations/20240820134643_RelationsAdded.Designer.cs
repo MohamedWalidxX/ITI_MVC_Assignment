@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ITI_MVC_Asssignment.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240820050035_InitialConfig")]
-    partial class InitialConfig
+    [Migration("20240820134643_RelationsAdded")]
+    partial class RelationsAdded
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,6 +35,9 @@ namespace ITI_MVC_Asssignment.Migrations
                     b.Property<double>("Degree")
                         .HasColumnType("float");
 
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("int");
+
                     b.Property<double>("MinimumDegree")
                         .HasColumnType("float");
 
@@ -43,6 +46,8 @@ namespace ITI_MVC_Asssignment.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("DepartmentId");
 
                     b.ToTable("Courses");
                 });
@@ -55,10 +60,20 @@ namespace ITI_MVC_Asssignment.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
                     b.Property<double>("Degree")
                         .HasColumnType("float");
 
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("StudentId");
 
                     b.ToTable("CourseResults");
                 });
@@ -71,16 +86,11 @@ namespace ITI_MVC_Asssignment.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ManagerId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ManagerId");
 
                     b.ToTable("Departments");
                 });
@@ -97,6 +107,12 @@ namespace ITI_MVC_Asssignment.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -110,6 +126,10 @@ namespace ITI_MVC_Asssignment.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("DepartmentId");
+
                     b.ToTable("Instructors");
                 });
 
@@ -120,6 +140,9 @@ namespace ITI_MVC_Asssignment.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("int");
 
                     b.Property<double>("Grade")
                         .HasColumnType("float");
@@ -134,18 +157,88 @@ namespace ITI_MVC_Asssignment.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DepartmentId");
+
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("ITI_MVC_Asssignment.Models.Course", b =>
+                {
+                    b.HasOne("ITI_MVC_Asssignment.Models.Department", "DepartmentNavigation")
+                        .WithMany("Courses")
+                        .HasForeignKey("DepartmentId");
+
+                    b.Navigation("DepartmentNavigation");
+                });
+
+            modelBuilder.Entity("ITI_MVC_Asssignment.Models.CourseResult", b =>
+                {
+                    b.HasOne("ITI_MVC_Asssignment.Models.Course", "CourseNavigation")
+                        .WithMany("CourseResults")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ITI_MVC_Asssignment.Models.Student", "StudentNavigation")
+                        .WithMany("CoursesResults")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CourseNavigation");
+
+                    b.Navigation("StudentNavigation");
+                });
+
+            modelBuilder.Entity("ITI_MVC_Asssignment.Models.Instructor", b =>
+                {
+                    b.HasOne("ITI_MVC_Asssignment.Models.Course", "CourseNavigation")
+                        .WithMany("Instructors")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ITI_MVC_Asssignment.Models.Department", "DepartmentNavigation")
+                        .WithMany("Instructors")
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CourseNavigation");
+
+                    b.Navigation("DepartmentNavigation");
+                });
+
+            modelBuilder.Entity("ITI_MVC_Asssignment.Models.Student", b =>
+                {
+                    b.HasOne("ITI_MVC_Asssignment.Models.Department", "DepartmentNavigation")
+                        .WithMany("Students")
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DepartmentNavigation");
+                });
+
+            modelBuilder.Entity("ITI_MVC_Asssignment.Models.Course", b =>
+                {
+                    b.Navigation("CourseResults");
+
+                    b.Navigation("Instructors");
                 });
 
             modelBuilder.Entity("ITI_MVC_Asssignment.Models.Department", b =>
                 {
-                    b.HasOne("ITI_MVC_Asssignment.Models.Instructor", "Manager")
-                        .WithMany()
-                        .HasForeignKey("ManagerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Courses");
 
-                    b.Navigation("Manager");
+                    b.Navigation("Instructors");
+
+                    b.Navigation("Students");
+                });
+
+            modelBuilder.Entity("ITI_MVC_Asssignment.Models.Student", b =>
+                {
+                    b.Navigation("CoursesResults");
                 });
 #pragma warning restore 612, 618
         }

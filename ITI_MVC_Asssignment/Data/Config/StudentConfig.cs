@@ -8,6 +8,6 @@ public class StudentConfig : IEntityTypeConfiguration<Student>
 {
 public void Configure(EntityTypeBuilder<Student> builder)
     {
-        throw new NotImplementedException();
+        builder.HasOne(s => s.DepartmentNavigation).WithMany(dep => dep.Students).HasForeignKey(s => s.DepartmentId).IsRequired();
     }
 }

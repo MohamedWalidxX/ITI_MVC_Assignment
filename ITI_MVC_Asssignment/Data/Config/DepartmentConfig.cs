@@ -8,6 +8,6 @@ public class DepartmentConfig : IEntityTypeConfiguration<Department>
 {
     public void Configure(EntityTypeBuilder<Department> builder)
     {
-        throw new NotImplementedException();
+        
     }
 }

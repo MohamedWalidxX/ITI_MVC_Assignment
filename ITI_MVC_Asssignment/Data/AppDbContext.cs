@@ -1,4 +1,5 @@
 using System;
+using ITI_MVC_Asssignment.Data.Config;
 using ITI_MVC_Asssignment.Models;
 using Microsoft.EntityFrameworkCore;
 namespace ITI_MVC_Asssignment.Data;
@@ -23,6 +24,7 @@ public class AppDbContext: DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(CourseConfig).Assembly);
     }
 
 

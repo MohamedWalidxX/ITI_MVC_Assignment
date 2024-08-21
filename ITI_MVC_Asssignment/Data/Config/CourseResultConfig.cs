@@ -8,6 +8,7 @@ public class CourseResultConfig : IEntityTypeConfiguration<CourseResult>
 {
 public void Configure(EntityTypeBuilder<CourseResult> builder)
     {
-        throw new NotImplementedException();
+        builder.HasOne(cr => cr.StudentNavigation).WithMany(s => s.CoursesResults).HasForeignKey(cr => cr.StudentId).IsRequired();
+        builder.HasOne(cr => cr.CourseNavigation).WithMany(c => c.CourseResults).HasForeignKey(cr => cr.CourseId).IsRequired();
     }
 }
