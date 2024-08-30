@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|c:\\users\\moham\\solutions\\iti_mvc_asssignment\\iti_mvc_asssignment\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|solutionrelative:iti_mvc_asssignment\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|c:\\users\\moham\\solutions\\iti_mvc_asssignment\\iti_mvc_asssignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|solutionrelative:iti_mvc_asssignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|c:\\users\\moham\\solutions\\iti_mvc_asssignment\\iti_mvc_asssignment\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|solutionrelative:iti_mvc_asssignment\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|c:\\users\\moham\\solutions\\iti_mvc_asssignment\\iti_mvc_asssignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|solutionrelative:iti_mvc_asssignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml",
+              "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml*",
+              "RelativeToolTip": "ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T09:14:27.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Controllers\\InstructorController.cs",
+              "ToolTip": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "ITI_MVC_Asssignment\\Controllers\\InstructorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T09:14:19.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "ITI_MVC_Asssignment\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T09:14:18.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Program.cs",
+              "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Program.cs",
+              "ToolTip": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Program.cs",
+              "RelativeToolTip": "ITI_MVC_Asssignment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T09:14:04.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

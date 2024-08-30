@@ -1,0 +1,20 @@
+﻿@model List<Instructor>
+
+<a href="/Instructor/New">NEW Instructor</a>
+<table class= table table-bordered>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Address</th>
+    </tr>
+    @foreach(Instructor instructor in Model){
+        <tr>
+            <td> @instructor.Id </td>
+            <td> @instructor.Name </td>
+            <td> @instructor.Salary </td>
+            <td> @instructor.Address </td>
+            <td><a href="/Instructor/Edit/@instructor.Id">EDIT</a></td>
+        </tr>
+    }
+</table>

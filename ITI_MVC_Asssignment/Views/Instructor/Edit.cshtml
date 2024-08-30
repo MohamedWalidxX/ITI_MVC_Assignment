@@ -1,0 +1,59 @@
+@model InstructorDepartmentCourse_ViewModel
+
+<form action="/Instructor/SaveEdit" method="post">
+  <div class="hidden-group">
+    <input type="hidden" class="form-control" name="Id" id="Id" value="@Model.Id">
+  </div>
+  <div class="form-group">
+    <label>Name</label>
+    <input type="text" class="form-control" name="Name" id="Name" value="@Model.Name">
+  </div>
+
+  <div class="form-group">
+    <label>Salary</label>
+    <input type="text" class="form-control" name="Salary" id="Salary" value="@Model.Salary">
+  </div>
+
+  <div class="form-group">
+    <label>address</label>
+    <input type="text" class="form-control" name="Address" id="Address" value="@Model.Address">
+  </div>
+
+  <div class="form-group">
+    <label>Iamge</label>
+    <input type="text" class="form-control" name="Image" id="Image" value="@Model.Image">
+  </div>
+
+
+  <div class="form-group">
+    <label>Department</label>
+    <select class="form-control" name="DepartmentId" id="DepartmentId">
+        @foreach(Department dept in Model.AllDepartments){
+            if (dept.Id == Model.DepartmentId){
+                <option selected value="@dept.Id">@dept.Name</option>
+                continue;
+            }
+            <option value="@dept.Id">@dept.Name</option>
+        }
+    </select>
+    
+  </div>
+  <div class = "form-group">
+    <label>Course</label>
+    <select class="form-control" name="CourseId" id="CourseId">
+        @foreach(Course course in Model.AllCourses){
+            if (course.Id == Model.CourseId){
+                <option selected value="@course.Id">@course.Name</option>
+                continue;
+            }
+            <option value="@course.Id">@course.Name</option>
+        }
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+@section Scripts{
+  <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

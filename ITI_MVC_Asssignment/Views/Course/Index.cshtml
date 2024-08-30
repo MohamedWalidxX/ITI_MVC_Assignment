@@ -1,0 +1,21 @@
+﻿@model List<Course>
+
+<a asp-controller="Course" asp-action="New">New Course</a>
+<table class= table table-bordered>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Degree</th>
+        <th>Minimum Degree</th>
+    </tr>
+    @foreach(Course course in Model){
+        <tr>
+            <td> @course.Id </td>
+            <td> @course.Name </td>
+            <td> @course.Degree </td>
+            <td> @course.MinimumDegree </td>
+            <td><a class="btn btn-info" asp-controller="Course" asp-action="Edit" asp-route-id="@course.Id">EDIT</a></td>
+            <td><a class="btn btn-danger" asp-controller="Course" asp-action="Remove" asp-route-id="@course.Id">Remove</a></td>
+        </tr>
+    }
+</table>
