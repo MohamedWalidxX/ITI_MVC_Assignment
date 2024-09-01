@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ITI_MVC_Asssignment.Models;
 
@@ -9,9 +10,10 @@ public class Course
     public int Id { get; set; }
 
     [Required(ErrorMessage = "Enter your name")]
-    [StringLength(maximumLength:30, ErrorMessage = "Your name must not exceed 30 letters")]
+    [StringLength(maximumLength:50, ErrorMessage = "Your name must not exceed 50 letters")]
     [MinLength(2, ErrorMessage = "Your name must be at least two letters")]
-    [DisplayName("Name")]
+    [DisplayName("Nameee")]
+    [Remote(action: "IsUnique", controller: "Course", ErrorMessage ="Your name is not unique", AdditionalFields ="Id")]
     public String Name { get; set; } 
 
     [Required(ErrorMessage = "Enter the degree of the course")]

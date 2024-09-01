@@ -17,4 +17,21 @@ public class InstructorDepartmentCourse_ViewModel
     public List<Department> AllDepartments { get; set; }
     public int CourseId { get; set; }
     public List<Course> AllCourses { get; set; }
+
+    public InstructorDepartmentCourse_ViewModel(List<Department> departments, List<Course> courses)
+    {
+        AllDepartments = departments;
+        AllCourses = courses;
+    }
+
+    public InstructorDepartmentCourse_ViewModel(Instructor targetInstructor, List<Department> departments, List<Course> courses):this(departments,courses)
+    {
+        Id = targetInstructor.Id;
+        Name = targetInstructor.Name;
+        Salary = targetInstructor.Salary;
+        Image = targetInstructor.Image;
+        DepartmentId = targetInstructor.DepartmentId;
+        Address = targetInstructor.Address;
+        CourseId = targetInstructor.CourseId;
+    }
 }

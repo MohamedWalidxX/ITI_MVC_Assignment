@@ -5,17 +5,15 @@ using ITI_MVC_Asssignment.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ITI_MVC_Asssignment.ViewModels;
-
-//[MetadataType(typeof(Course))]
 public class CourseDepartment_ViewModel
 {
 
     public int Id { get; set; }
 
     [Required(ErrorMessage = "Enter your name")]
-    [StringLength(maximumLength:50, ErrorMessage = "Your name must not exceed 30 letters")]
+    [StringLength(maximumLength:50, ErrorMessage = "Your name must not exceed 50 letters")]
     [MinLength(2, ErrorMessage = "Your name must be at least two letters")]
-    [DisplayName("Name")]
+    [DisplayName("Nameee")]
     [Remote(action: "IsUnique", controller: "Course", ErrorMessage ="Your name is not unique", AdditionalFields ="Id")]
     public String Name { get; set; }
 
@@ -34,4 +32,14 @@ public class CourseDepartment_ViewModel
     [DisplayName("Course Department")]
     public int DepartmentId { get; set; }
     public IEnumerable<Department> AllDepartments { get; set; }
+
+    public CourseDepartment_ViewModel(Course targetCourse, List<Department> allDepartments)
+    {
+        Id = targetCourse.Id;
+        Name = targetCourse.Name;
+        Degree = targetCourse.Degree;
+        MinimumDegree = targetCourse.MinimumDegree;
+        DepartmentId = targetCourse.DepartmentId;
+        AllDepartments = allDepartments;
+    }
 }

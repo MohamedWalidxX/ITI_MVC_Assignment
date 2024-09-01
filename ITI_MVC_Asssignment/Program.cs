@@ -1,3 +1,7 @@
+using ITI_MVC_Asssignment.Data;
+using ITI_MVC_Asssignment.Repository;
+using Microsoft.EntityFrameworkCore;
+
 namespace ITI_MVC_Asssignment;
 
 public class Program
@@ -9,7 +13,14 @@ public class Program
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
-        
+        builder.Services.AddDbContext<AppDbContext>(optionBuilder => {
+            var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+            var constr = config.GetSection("constr").Value;
+            optionBuilder.UseSqlServer(constr);
+            }
+        );
+        builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+        builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
 
         var app = builder.Build();
         

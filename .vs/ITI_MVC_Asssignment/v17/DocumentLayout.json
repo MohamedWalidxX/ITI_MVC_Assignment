@@ -7,14 +7,6 @@
       "RelativeMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|solutionrelative:iti_mvc_asssignment\\data\\config\\departmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|c:\\users\\moham\\solutions\\iti_mvc_asssignment\\iti_mvc_asssignment\\data\\config\\instructorconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|solutionrelative:iti_mvc_asssignment\\data\\config\\instructorconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|c:\\users\\moham\\solutions\\iti_mvc_asssignment\\iti_mvc_asssignment\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|solutionrelative:iti_mvc_asssignment\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|c:\\users\\moham\\solutions\\iti_mvc_asssignment\\iti_mvc_asssignment\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8C9B1383-63E6-4468-8505-32526C39321C}|ITI_MVC_Asssignment\\ITI_MVC_Asssignment.csproj|solutionrelative:iti_mvc_asssignment\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -46,8 +38,8 @@
               "Title": "DepartmentConfig.cs",
               "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Data\\Config\\DepartmentConfig.cs",
               "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Data\\Config\\DepartmentConfig.cs",
-              "ToolTip": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Data\\Config\\DepartmentConfig.cs*",
-              "RelativeToolTip": "ITI_MVC_Asssignment\\Data\\Config\\DepartmentConfig.cs*",
+              "ToolTip": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Data\\Config\\DepartmentConfig.cs",
+              "RelativeToolTip": "ITI_MVC_Asssignment\\Data\\Config\\DepartmentConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T08:29:11.32Z",
@@ -56,45 +48,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InstructorConfig.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Data\\Config\\InstructorConfig.cs",
-              "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Data\\Config\\InstructorConfig.cs",
-              "ToolTip": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Data\\Config\\InstructorConfig.cs*",
-              "RelativeToolTip": "ITI_MVC_Asssignment\\Data\\Config\\InstructorConfig.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T08:27:21.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Models\\Department.cs",
-              "ToolTip": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Models\\Department.cs*",
-              "RelativeToolTip": "ITI_MVC_Asssignment\\Models\\Department.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T08:26:54.803Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml",
+              "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml",
+              "RelativeToolTip": "ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T09:14:27.921Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml",
-              "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml",
-              "ToolTip": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml*",
-              "RelativeToolTip": "ITI_MVC_Asssignment\\Views\\Instructor\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-25T09:14:27.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "InstructorController.cs",
               "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Controllers\\InstructorController.cs",
               "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Controllers\\InstructorController.cs",
@@ -106,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Controllers\\HomeController.cs",
@@ -118,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\moham\\Solutions\\ITI_MVC_Asssignment\\ITI_MVC_Asssignment\\Program.cs",
               "RelativeDocumentMoniker": "ITI_MVC_Asssignment\\Program.cs",

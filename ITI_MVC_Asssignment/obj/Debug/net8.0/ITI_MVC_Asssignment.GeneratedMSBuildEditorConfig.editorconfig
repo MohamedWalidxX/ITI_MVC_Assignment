@@ -9,63 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ITI_MVC_Asssignment
 build_property.RootNamespace = ITI_MVC_Asssignment
-build_property.ProjectDir = C:\Users\moham\Solutions\ITI_MVC_Asssignment\ITI_MVC_Asssignment\
+build_property.ProjectDir = c:\Users\moham\Solutions\ITI_MVC_Asssignment\ITI_MVC_Asssignment\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\moham\Solutions\ITI_MVC_Asssignment\ITI_MVC_Asssignment
+build_property.MSBuildProjectDirectory = c:\Users\moham\Solutions\ITI_MVC_Asssignment\ITI_MVC_Asssignment
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Course/Edit.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Course/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Course/Index.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Course/New.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Course/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXE5ldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Home/Index.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Home/Privacy.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Instructor/Edit.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Instructor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Instructor/Index.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Instructor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Shared/Error.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Shared/_AdvancedLayout.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Shared/_AdvancedLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZHZhbmNlZExheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/_ViewImports.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/_ViewStart.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Shared/_Layout.cshtml]
+[c:/Users/moham/Solutions/ITI_MVC_Asssignment/ITI_MVC_Asssignment/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-m75n80hz1o
